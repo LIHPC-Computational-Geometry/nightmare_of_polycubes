@@ -22,6 +22,13 @@ Name | Thumbnail | Files | Comments
 
 Thanks to François Protais for the ideas and to Christophe Bourcier for the help.
 
+## Licence
+
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+How to give attribution:
+> "[Nightmare of polycubes](https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes)" by Sébastien Mestrallet and Christophe Bourcier, licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
 [^1]: Marco Livesu, Nicholas Vining, Alla Sheffer, James Gregson, Riccardo Scateni, "PolyCut: Monotone Graph-Cuts for PolyCube Base-Complex Construction", _Transactions on Graphics_ (Proc. SIGGRAPH ASIA 2013), 2013, [DOI](https://dl.acm.org/doi/10.1145/2508363.2508388), [project page](http://www.cs.ubc.ca/labs/imager/tr/2013/polycut/)
 
 [^2]: Dmitry Sokolov, Nicolas Ray, "Fixing normal constraints for generation of polycubes", research report, LORIA, 2015, [HAL](https://inria.hal.science/hal-01211408)
