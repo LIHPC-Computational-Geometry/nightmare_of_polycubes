@@ -311,7 +311,7 @@ d. Nothing in this Public License constitutes or may be interpreted as a limitat
 Creative Commons is not a party to its public licenses. Notwithstanding, Creative
 Commons may elect to apply one of its public licenses to material it publishes and
 in those instances will be considered the “Licensor.” The text of the Creative Commons
-public licenses is dedicated to the public domain under the _[CC0 PublicDomain Dedication](https://creativecommons.org/publicdomain/zero/1.0/legalcode)_.
+public licenses is dedicated to the public domain under the _[CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/legalcode)_.
 Except for the limited purpose of indicating that material is shared under a Creative Commons public
 license or as otherwise permitted by the Creative Commons policies published at [creativecommons.org/policies](https://creativecommons.org/policies),
 Creative Commons does not authorize the use of the trademark “Creative Commons” or

@@ -22,7 +22,7 @@ Name | Thumbnail | Files | Comments
 
 Thanks to François Protais for the ideas and to Christophe Bourcier for the help.
 
-## Licence
+## License
 
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
