@@ -6,6 +6,18 @@
 
 All models were designed with the [Shaper](https://www.salome-platform.org/?page_id=327) module of the open-source [SALOME platform](https://www.salome-platform.org/). For each of them, you can download the study (.hdf) and the exported Python script, STEP, B-Rep and STL files.
 
+<details> <summary>How to load a .hdf study file in SALOME?</summary>
+
+In the menu bar, click on "File" > "Open", select the .hdf file, then open the Shaper module.
+
+</details>
+
+<details> <summary>How to load a .py Shaper script in SALOME?</summary>
+
+First, open the Shaper module, then in the menu bar click on "File" > "Load Script" and select the .py file.
+
+</details>
+
 For STL files I used the default relative deflection of 0.0001.
 
 Name | Thumbnail | Files | Comments
