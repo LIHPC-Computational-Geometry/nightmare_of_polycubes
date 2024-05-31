@@ -19,6 +19,7 @@ repository-code: >-
 abstract: >-
   (Very) challenging 3D shapes for polycube-based
   hex-meshing
+version: 1.0.0
 keywords:
   - CAD
   - 3D
