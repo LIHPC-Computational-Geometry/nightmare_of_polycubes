@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Thumbnails now showcase the polycube labeling
 - `in-volume_twist` is more parametric and reoriented (to be seen from +Z)
 - `in-volume_knot` is redesigned (smaller margins) and more parametric
+- `cuboid_screw_thread` is reoriented (to be seen from +Z)
 
 ## [1.0.0] - 2023-09-08
 

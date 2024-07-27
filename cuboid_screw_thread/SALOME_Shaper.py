@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 ###
-### This file is based on the automatically generated one by SALOME v9.9.0 with dump python functionality
+### This file is based on the automatically generated one by SALOME v9.12.0 with dump python functionality
 ###
 
 import sys
@@ -586,6 +586,12 @@ model.do()
 ### Create ExtrusionCut
 ExtrusionCut_9 = model.addExtrusionCut(Part_1_doc, [model.selection("WIRE", "Sketch_9/Face-SketchLine_58r-SketchLine_57r-SketchLine_56r-SketchLine_55r_wire")], model.selection(), 0, 1, [model.selection("SOLID", "ExtrusionCut_8_1")])
 
+### Create Rotation
+Rotation_1 = model.addRotation(Part_1_doc, [model.selection("SOLID", "ExtrusionCut_9_1")], axis = model.selection("EDGE", "PartSet/OY"), angle = -90, keepSubResults = True)
+
+### Create Rotation
+Rotation_2 = model.addRotation(Part_1_doc, [model.selection("SOLID", "Rotation_1_1")], axis = model.selection("EDGE", "PartSet/OZ"), angle = -90, keepSubResults = True)
+
 model.end()
 
 ###
@@ -594,7 +600,7 @@ model.end()
 
 model.publishToShaperStudy()
 import SHAPERSTUDY
-ExtrusionCut_9_1, = SHAPERSTUDY.shape(model.featureStringId(ExtrusionCut_9))
+Rotation_2_1, = SHAPERSTUDY.shape(model.featureStringId(Rotation_2))
 
 if salome.sg.hasDesktop():
   salome.sg.updateObjBrowser()
