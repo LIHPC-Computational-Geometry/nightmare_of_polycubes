@@ -9,7 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- A triangle mesh (.obj), the naive labeling (.txt) and a glTF model are included for all models
+- A triangle mesh (.obj), the naive labeling (.txt) and a glTF model are included for all models. The .obj can be downloaded directly from the README.
+- Links to visualize the 3D model with [3dviewer.net](https://3dviewer.net/) (:octocat: [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer))
 
 ### Changed
 
