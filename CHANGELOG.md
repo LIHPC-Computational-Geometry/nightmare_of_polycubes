@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Links to visualize the 3D model with [3dviewer.net](https://3dviewer.net/) ([kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer))
 - `cuboid_tray_with_step` model
 - `encrusted_cube` model
+- `conjoined_twins` model
 
 ### Changed
 
