@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `cuboid_tray_with_step` model
 - `encrusted_cube` model
 - `conjoined_twins` model
+- `7-connected` model
 
 ### Changed
 

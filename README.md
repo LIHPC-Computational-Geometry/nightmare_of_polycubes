@@ -6,8 +6,13 @@
 
 All models were designed with the [Shaper](https://www.salome-platform.org/?page_id=327) module of the open-source [SALOME platform](https://www.salome-platform.org/).
 
+<!--
+Yes, a HTML table would make things more readable, but we have to stick to a Markdown one to have [^footnotes]
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes
+-->
 Name | Thumbnail | Files | Comments
 -----|-----------|-------|---------
+`7-connected` | <div align="center"><img src="7-connected/thumbnail.png" width="300"/><br/><a href="https://3dviewer.net/#model=https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes/blob/main/7-connected/labeled_mesh.glb" target="_blank" rel="noopener noreferrer">3D viewer ↗</a></div> | [.hdf](7-connected/SALOME_Study.hdf) <br/> [.py](7-connected/SALOME_Shaper.py) <br/> [.step](7-connected/CAD.step) <br/> [.brep](7-connected/CAD.brep) <br/> [.stl](7-connected/CAD.stl) <br/> [.obj](7-connected/triangle_mesh.obj) | The node at the middle has 7 adjacent patches, which is usually forbidden [^5][^1][^3], despite that the polycuboid corresponding to the labeling can be used to generate a good hex-mesh.
 `encrusted_cube` | <div align="center"><img src="encrusted_cube/thumbnail.png" width="300"/><br/><a href="https://3dviewer.net/#model=https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes/blob/main/encrusted_cube/labeled_mesh.glb" target="_blank" rel="noopener noreferrer">3D viewer ↗</a></div> | [.hdf](encrusted_cube/SALOME_Study.hdf) <br/> [.py](encrusted_cube/SALOME_Shaper.py) <br/> [.step](encrusted_cube/CAD.step) <br/> [.brep](encrusted_cube/CAD.brep) <br/> [.stl](encrusted_cube/CAD.stl) <br/> [.obj](encrusted_cube/triangle_mesh.obj) | The labeling is justly classified as invalid (there are 4-connected corners with incident boundaries of the same axis) according to the "simple orthogonal polyhedra" criteria [^5][^1]. But the issue is that the common processing for invalid corners (local relabeling [^3]) will result in a high distorsion, whereas a global operator (retracing of incident boundaries) would be better. Model inspired by ABC n°00001525 [^6].
 `conjoined_twins` | <div align="center"><img src="conjoined_twins/thumbnail.png" width="300"/><br/><a href="https://3dviewer.net/#model=https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes/blob/main/conjoined_twins/labeled_mesh.glb" target="_blank" rel="noopener noreferrer">3D viewer ↗</a></div> | [.hdf](conjoined_twins/SALOME_Study.hdf) <br/> [.py](conjoined_twins/SALOME_Shaper.py) <br/> [.step](conjoined_twins/CAD.step) <br/> [.brep](conjoined_twins/CAD.brep) <br/> [.stl](conjoined_twins/CAD.stl) <br/> [.obj](conjoined_twins/triangle_mesh.obj) | Simplified configuration of the previous model.
 `cuboid_screw_thread` | <div align="center"><img src="cuboid_screw_thread/thumbnail.png" width="300"/><br/><a href="https://3dviewer.net/#model=https://github.com/LIHPC-Computational-Geometry/nightmare_of_polycubes/blob/main/cuboid_screw_thread/labeled_mesh.glb" target="_blank" rel="noopener noreferrer">3D viewer ↗</a></div> | [.hdf](cuboid_screw_thread/SALOME_Study.hdf) <br/> [.py](cuboid_screw_thread/SALOME_Shaper.py) <br/> [.step](cuboid_screw_thread/CAD.step) <br/> [.brep](cuboid_screw_thread/CAD.brep) <br/> [.stl](cuboid_screw_thread/CAD.stl) <br/> [.obj](cuboid_screw_thread/triangle_mesh.obj) | Introduced in [^2] and mentioned in appendices of [^3]. <br/> Labeling-based approaches [^1][^3] will collapse the two parts of the slope, constrained to the same top and bottom planes.
@@ -81,7 +86,9 @@ You can open it with many tools, like the [official sample viewer from Khronos](
 
 ## Contributing
 
-If you designed an automatic hex-meshing algorithm, in particular (but not limited to) a polycube-based one, that can handle one of these 3D models, you can send a PR to link to your work.
+If you defined new validity criteria for polycube labelings, that better discriminate between valid and invalid configurations, you can send a PR to link to your work.
+
+Likewise, if you designed an automatic hex-meshing algorithm, in particular (but not limited to) a polycube-based one, that can handle one of these 3D models (except a `*-connected`, too easy), you can send a PR to link to your work.
 
 ## License
 
