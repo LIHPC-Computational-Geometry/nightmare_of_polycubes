@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `conjoined_twins` model
 - `7-connected` model
 - `8-connected` model
+- `24-connected` model
 
 ### Changed
 
