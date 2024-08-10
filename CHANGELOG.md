@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Thumbnails now showcase the polycube labeling
+- Thumbnails now showcase the polycube labeling (red-white-blue colors)
 - `in-volume_twist` is more parametric and reoriented (to be seen from +Z)
 - `in-volume_knot` is redesigned (smaller margins) and more parametric
 - `cuboid_screw_thread` is reoriented (to be seen from +Z)
