@@ -2,6 +2,8 @@
 
 (Very) challenging 3D shapes for polycube-based hex-meshing
 
+[![Maintenance Level: Inactively Maintained](https://badgen.net/badge/Maintenance%20Level/Inactively%20Maintained?color=a4a61d)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+
 ## Dataset
 
 All models were designed with the [Shaper](https://www.salome-platform.org/?page_id=327) module of the open-source [SALOME platform](https://www.salome-platform.org/).
